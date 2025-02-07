@@ -120,12 +120,16 @@ header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
+  min-height: 72px;
+
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /*section1 style start */
 
 .section-page-titel {
-  max-width: 1440px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -137,16 +141,16 @@ header {
   background-position: center center;
   background-size: cover;
   padding: 188px 0 188px;
-
   height: 600px;
 }
 
 .container {
-  width: 1158px;
+  width: 1155px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
 .page-title {
+  margin-bottom: 48px;
   max-width: 496px;
   font-size: 56px;
   line-height: 107%;
@@ -154,16 +158,26 @@ header {
   text-align: center;
   color: #ffffff;
 }
+.hero-titel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 /*section1 style end */
 
 .conteiner-header {
   display: flex;
-  gap: 332px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 /* меню хедера початок  */
 .page-nav {
