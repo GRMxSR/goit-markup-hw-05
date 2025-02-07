@@ -493,15 +493,13 @@ button:focus {
 }
 .form {
   display: flex;
-  flex-direction: inline;
+  flex-direction: row;
   max-width: 453px;
   gap: 24px;
 }
 .form-label {
   display: flex;
   flex-direction: column;
-}
-.text-label {
   margin-bottom: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -510,6 +508,7 @@ button:focus {
   letter-spacing: 0.02em;
   color: #fff;
 }
+
 .input-field {
   width: 264px;
   height: 40px;
